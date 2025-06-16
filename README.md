@@ -150,7 +150,7 @@ Implementation of API rate limiting to prevent abuse and DDoS attacks, along wit
 
 PCI DSS compliant payment processing with tokenization of sensitive payment information. This protects financial data and ensures secure transaction processing, building user trust and meeting regulatory requirements.
 
-### **CI/CD Pipeline**
+### **CI/CD Pipeline**
 
 **Continuous Integration/Continuous Deployment Overview**
 CI/CD pipelines are automated workflows that enable rapid, reliable, and consistent software delivery. They automatically test, build, and deploy code changes, reducing manual errors and ensuring that new features and bug fixes reach production quickly and safely.
