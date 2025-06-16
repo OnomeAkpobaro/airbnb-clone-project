@@ -69,7 +69,7 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 
 **Docker**: Ensures consistent development and deployment environments through containerization, making the application portable across different platforms
 
-### **CI/CD**
+### **CI/CD**
 
 **GitHub Actions**: Automates testing, building, and deployment processes to maintain code quality and streamline development workflows
 
