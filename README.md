@@ -79,27 +79,32 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 ### **Users**
 
 **Fields**: user_id (Primary Key), email, password_hash, first_name, last_name, phone_number, profile_picture, created_at, updated_at
+
 **Purpose**: Stores user account information and authentication credentials
 
 
 ### **Properties**
 
 **Fields**: property_id (Primary Key), host_id (Foreign Key), title, description, location, price_per_night, amenities, availability, created_at, updated_at
-Purpose: Contains property listing information and details
+
+**Purpose**: Contains property listing information and details
 
 ### **Bookings**
 
 **Fields**: booking_id (Primary Key), property_id (Foreign Key), user_id (Foreign Key), check_in_date, check_out_date, total_price, status, created_at, updated_at
+
 **Purpose**: Manages reservation information and booking status
 
 ### **Reviews**
 
 **Fields**: review_id (Primary Key), property_id (Foreign Key), user_id (Foreign Key), rating, comment, created_at, updated_at
+
 **Purpose**: Stores user feedback and ratings for properties
 
 ### **Payments**
 
 **Fields**: payment_id (Primary Key), booking_id (Foreign Key), amount, payment_method, transaction_id, status, created_at, updated_at
+
 **Purpose**: Tracks payment transactions and financial records
 
 
