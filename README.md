@@ -1,10 +1,13 @@
-Airbnb Clone Project
-Project Overview
-The Airbnb Clone project is a comprehensive, real-world application designed to simulate the development of a robust booking platform similar to Airbnb. This project focuses on creating a scalable backend system that handles user interactions, property listings, bookings, and payments while implementing modern software development practices.
-Project Goals
+**Airbnb Clone Project**
 
-User Management: Implement a secure system for user registration, authentication, and profile management
-Property Management: Develop features for property listing creation, updates, and retrieval
+**Project Overview**
+
+The Airbnb Clone project is a comprehensive, real-world application designed to simulate the development of a robust booking platform similar to Airbnb. This project focuses on creating a scalable backend system that handles user interactions, property listings, bookings, and payments while implementing modern software development practices.
+
+**Project Goals**
+
+**User Management**: Implement a secure system for user registration, authentication, and profile management
+**Property Management**: Develop features for property listing creation, updates, and retrieval
 Booking System: Create a comprehensive booking mechanism for users to reserve properties
 Payment Processing: Integrate secure payment systems to handle transactions
 Review System: Enable users to leave reviews and ratings for properties
