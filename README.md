@@ -115,21 +115,27 @@ A User can write multiple Reviews (one-to-many)
 ### **Feature Breakdown**
 
 **User Management**
+
 Comprehensive user registration and authentication system that handles account creation, login/logout functionality, and profile management. This feature ensures secure access control and personalized user experiences throughout the platform.
 
 **Property Management**
+
 Complete property listing system allowing hosts to create, update, and manage their property listings. This includes uploading photos, setting availability calendars, pricing management, and detailed property descriptions with amenities.
 
 **Booking System**
+
 Robust reservation mechanism that enables users to search available properties, make bookings, and manage their reservations. The system handles date validation, pricing calculations, and booking status management from inquiry to completion.
 
 **Payment Processing**
+
 Secure payment integration that processes transactions, handles different payment methods, and maintains payment records. This feature ensures PCI compliance and provides users with safe and reliable payment options.
 
 **Review System**
+
 User feedback mechanism allowing guests to rate and review properties after their stay. This feature builds trust in the platform and helps other users make informed booking decisions while providing valuable feedback to hosts.
 
 **Search and Filtering**
+
 Advanced search functionality that allows users to find properties based on location, dates, price range, amenities, and other criteria. This feature improves user experience by helping them quickly find suitable accommodations.
 
 ### **API Security**
@@ -153,6 +159,7 @@ PCI DSS compliant payment processing with tokenization of sensitive payment info
 ### **CI/CD Pipeline**
 
 **Continuous Integration/Continuous Deployment Overview**
+
 CI/CD pipelines are automated workflows that enable rapid, reliable, and consistent software delivery. They automatically test, build, and deploy code changes, reducing manual errors and ensuring that new features and bug fixes reach production quickly and safely.
 
 **Pipeline Benefits**
@@ -171,4 +178,5 @@ CI/CD pipelines are crucial for maintaining code quality, enabling rapid develop
 
 
 ### **Workflow Stages**
+
 The pipeline includes code linting, automated testing, security scanning, Docker image building, and staged deployment processes. This ensures that only tested, secure, and properly formatted code reaches production while maintaining development velocity.
