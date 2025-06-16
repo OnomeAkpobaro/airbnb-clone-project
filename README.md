@@ -47,6 +47,8 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 ### **API Development**
 
 **Django REST Framework**: Provides comprehensive tools for creating and managing RESTful APIs with serialization, authentication, and browsable API features
+
+
 **GraphQL**: Offers flexible and efficient querying capabilities, allowing clients to request specific data and reducing over-fetching
 
 ### **Database**
@@ -63,7 +65,7 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 **Redis**: Provides high-performance caching solutions and session storage to reduce database load and improve application response times
 
 
-### **Containerization & Deployment**
+### **Containerization & Deployment**
 
 **Docker**: Ensures consistent development and deployment environments through containerization, making the application portable across different platforms
 
@@ -74,28 +76,28 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 ### **Database Design**
 **Key Entities**
 
-**Users**
+### **Users**
 
 **Fields**: user_id (Primary Key), email, password_hash, first_name, last_name, phone_number, profile_picture, created_at, updated_at
 **Purpose**: Stores user account information and authentication credentials
 
 
-**Properties**
+### **Properties**
 
 **Fields**: property_id (Primary Key), host_id (Foreign Key), title, description, location, price_per_night, amenities, availability, created_at, updated_at
 Purpose: Contains property listing information and details
 
-**Bookings**
+### **Bookings**
 
 **Fields**: booking_id (Primary Key), property_id (Foreign Key), user_id (Foreign Key), check_in_date, check_out_date, total_price, status, created_at, updated_at
 **Purpose**: Manages reservation information and booking status
 
-**Reviews**
+### **Reviews**
 
 **Fields**: review_id (Primary Key), property_id (Foreign Key), user_id (Foreign Key), rating, comment, created_at, updated_at
 **Purpose**: Stores user feedback and ratings for properties
 
-**Payments**
+### **Payments**
 
 **Fields**: payment_id (Primary Key), booking_id (Foreign Key), amount, payment_method, transaction_id, status, created_at, updated_at
 **Purpose**: Tracks payment transactions and financial records
@@ -168,5 +170,5 @@ CI/CD pipelines are crucial for maintaining code quality, enabling rapid develop
 **Deployment Automation**: Handles automatic deployment to staging and production environments with proper approval workflows
 
 
-### **Workflow Stages**
+### **Workflow Stages**
 The pipeline includes code linting, automated testing, security scanning, Docker image building, and staged deployment processes. This ensures that only tested, secure, and properly formatted code reaches production while maintaining development velocity.
