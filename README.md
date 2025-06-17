@@ -2,7 +2,135 @@
 
 ### **Project Overview**
 
+## FE
+This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
+
+## BE
 The Airbnb Clone project is a comprehensive, real-world application designed to simulate the development of a robust booking platform similar to Airbnb. This project focuses on creating a scalable backend system that handles user interactions, property listings, bookings, and payments while implementing modern software development practices.
+
+
+
+### FRONTEND
+
+## Project Goals
+
+- Learn to implement responsive UI/UX designs
+- Understand how to structure a complex web application
+- Practice working in a team with defined roles
+- Develop skills in component-based frontend architecture
+- Learn best practices for web application development
+
+## Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript (React or similar framework)
+- **Version Control**: Git and GitHub
+- **Design Tools**: Figma for UI/UX design
+
+## UI/UX Design Planning
+
+### Design Goals
+
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
+- Prioritize mobile responsiveness
+
+### Key Features
+
+- Property search and filtering
+- Detailed property viewing
+- Secure checkout process
+- User authentication
+
+### Primary Pages
+
+| Page | Description |
+|------|-------------|
+| Property Listing View | Grid display of available properties with filters |
+| Listing Detailed View | Complete property details with images and booking form |
+| Simple Checkout View | Streamlined payment and booking confirmation |
+
+### Importance of User-Friendly Design
+
+A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success in the competitive accommodation booking market.
+
+### Design Properties
+
+#### Color Styles
+
+- **Primary**: #FF5A5F
+- **Secondary**: #008489
+- **Background**: #FFFFFF
+- **Text**: #222222
+- **Secondary Text**: #717171
+
+#### Typography
+
+- **Primary Font**: Circular, Medium (500), 16px
+- **Headings**: Circular, Bold (700), 24px-32px
+- **Secondary Text**: Circular, Book (400), 14px
+
+### Importance of Identifying Design Properties
+
+Identifying design properties from mockup designs is crucial for maintaining consistency across the application. It ensures that developers can accurately translate visual designs into code, maintains brand identity, and creates a cohesive user experience. Proper documentation of colors, typography, spacing, and component specifications helps team members work efficiently and reduces design inconsistencies.
+
+## Project Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Oversees project timeline, coordinates team activities, manages deliverables, and ensures project milestones are met |
+| **Frontend Developers** | Implements UI components, ensures responsive design, integrates with backend APIs, and maintains code quality |
+| **Backend Developers** | Builds APIs, manages database operations, implements business logic, and ensures server-side security |
+| **Designers** | Creates mockups, maintains design system, ensures UX quality, and provides design specifications |
+| **QA/Testers** | Writes test cases, performs manual and automated testing, reports bugs, and ensures quality standards |
+| **DevOps Engineers** | Manages deployment pipelines, CI/CD processes, server infrastructure, and monitoring systems |
+| **Product Owner** | Defines project requirements, prioritizes features, represents stakeholder interests, and makes strategic decisions |
+| **Scrum Master** | Facilitates agile processes, removes project blockers, organizes team meetings, and ensures smooth workflow |
+
+## UI Component Patterns
+
+This section outlines the reusable UI components that will be developed for the AirBnB Clone project.
+
+### Planned Components
+
+#### Navbar
+
+- Logo placement and branding
+- Search bar functionality
+- User navigation and authentication
+- Responsive mobile menu
+- Navigation links and dropdowns
+
+#### Property Card
+
+- Property image display with hover effects
+- Basic property details (price, location, rating)
+- Favorite/wishlist button functionality
+- Responsive layout for different screen sizes
+- Quick action buttons
+
+#### Footer
+
+- Organized site navigation links
+- Company information and policies
+- Social media integration
+- Newsletter signup
+- Copyright and legal information
+
+Each component will be designed with reusability and consistency in mind, following established design patterns and maintaining the overall visual coherence of the application.
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies
+3. Set up your development environment
+4. Review the design specifications
+5. Start implementing components according to the planned architecture
+
+
+
+### BACKEND
+
 
 ### **Project Goals**
 
