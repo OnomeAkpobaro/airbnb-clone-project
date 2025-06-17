@@ -132,7 +132,7 @@ Each component will be designed with reusability and consistency in mind, follow
 ### BACKEND
 
 
-### **Project Goals**
+## **Project Goals**
 
 **User Management**: Implement a secure system for user registration, authentication, and profile management
 
@@ -147,7 +147,7 @@ Each component will be designed with reusability and consistency in mind, follow
 **Data Optimization**: Ensure efficient data retrieval and storage through database optimizations
 
 
-### **Team Roles**
+## **Team Roles**
 
 **Backend Developer**
 
@@ -183,17 +183,17 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 
 **PostgreSQL**: A powerful, open-source relational database system that provides ACID compliance, advanced indexing, and excellent performance for complex queries
 
-### **Task Processing**
+## **Task Processing**
 
 **Celery**: Handles asynchronous task processing such as sending email notifications, processing payments, and generating reports without blocking the main application
 
 
-### **Caching & Session Management**
+## **Caching & Session Management**
 
 **Redis**: Provides high-performance caching solutions and session storage to reduce database load and improve application response times
 
 
-### **Containerization & Deployment**
+## **Containerization & Deployment**
 
 **Docker**: Ensures consistent development and deployment environments through containerization, making the application portable across different platforms
 
@@ -201,7 +201,7 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 
 **GitHub Actions**: Automates testing, building, and deployment processes to maintain code quality and streamline development workflows
 
-### **Database Design**
+## **Database Design**
 **Key Entities**
 
 ### **Users**
@@ -245,7 +245,7 @@ A Booking has one Payment (one-to-one)
 A Property can have multiple Reviews (one-to-many)
 A User can write multiple Reviews (one-to-many)
 
-### **Feature Breakdown**
+## **Feature Breakdown**
 
 **User Management**
 
@@ -271,7 +271,7 @@ User feedback mechanism allowing guests to rate and review properties after thei
 
 Advanced search functionality that allows users to find properties based on location, dates, price range, amenities, and other criteria. This feature improves user experience by helping them quickly find suitable accommodations.
 
-### **API Security**
+## **API Security**
 
 **Authentication & Authorization**
 
@@ -289,7 +289,7 @@ Implementation of API rate limiting to prevent abuse and DDoS attacks, along wit
 
 PCI DSS compliant payment processing with tokenization of sensitive payment information. This protects financial data and ensures secure transaction processing, building user trust and meeting regulatory requirements.
 
-### **CI/CD Pipeline**
+## **CI/CD Pipeline**
 
 **Continuous Integration/Continuous Deployment Overview**
 
@@ -299,7 +299,7 @@ CI/CD pipelines are automated workflows that enable rapid, reliable, and consist
 
 CI/CD pipelines are crucial for maintaining code quality, enabling rapid development cycles, and ensuring reliable deployments. They provide automated testing, consistent environments, and rollback capabilities, which are essential for a production-ready application serving multiple users.
 
-### **Tools & Implementation**
+## **Tools & Implementation**
 
 **GitHub Actions**: Automates testing workflows, code quality checks, and deployment processes triggered by code commits and pull requests
 
@@ -310,6 +310,6 @@ CI/CD pipelines are crucial for maintaining code quality, enabling rapid develop
 **Deployment Automation**: Handles automatic deployment to staging and production environments with proper approval workflows
 
 
-### **Workflow Stages**
+## **Workflow Stages**
 
 The pipeline includes code linting, automated testing, security scanning, Docker image building, and staged deployment processes. This ensures that only tested, secure, and properly formatted code reaches production while maintaining development velocity.
