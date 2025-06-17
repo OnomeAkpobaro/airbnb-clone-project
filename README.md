@@ -166,7 +166,7 @@ Handles deployment pipelines, server monitoring, and infrastructure scaling. The
 Ensures backend functionalities are thoroughly tested and meet quality standards. They develop test cases, perform automated testing, and validate that all features work correctly before deployment.
 
 
-### **Technology Stack**
+## **Technology Stack**
 
 **Backend Framework**
 
@@ -179,7 +179,7 @@ Ensures backend functionalities are thoroughly tested and meet quality standards
 
 **GraphQL**: Offers flexible and efficient querying capabilities, allowing clients to request specific data and reducing over-fetching
 
-### **Database**
+## **Database**
 
 **PostgreSQL**: A powerful, open-source relational database system that provides ACID compliance, advanced indexing, and excellent performance for complex queries
 
